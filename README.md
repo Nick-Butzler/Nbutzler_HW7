@@ -1,1 +1,4 @@
 # Nbutzler_HW7
+My project aimed to craft a compact web survey to gather student data, covering essentials like names, hometowns, and University of Iowa enrollment specifics. It features five pages, with three dedicated to survey questions. To ensure optimal form usability, I carefully selected language for gender and ethnicity descriptors and meticulously labeled response IDs for efficient database management.
+
+For best practices in form design, each page is structured with clear headings and descriptions, utilizing autofocus for ease of navigation, and incorporating tooltips for assistance. Furthermore, required field validators are implemented along with Font Awesome icons for visual cues
