@@ -1,67 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <titLe>Survey | Page 3</title>
-        <script 
-            src="https://kit.fontawesome.com/84868f4675.js" 
-            crossorigin="anonymous"
-        ></script>
-    
-        <link rel="stylesheet" href="CSS/stylesheet.css" />
-
-    </head>
-    <body>
-        <h1>Survey  |  Business Analytics Student Survey</h1>
-        <main>
-            <form>
-                  <fieldset>
-                    <legend> Race/Ethnicity: </legend>
-                    <label for="hispanic">
-                    <input type="checkbox" id="hispanic" name="class" value="hispanic"> Hispanic or Latino
-                    </label>
-                </br>
-                    <label for="white">
-                    <input type="checkbox" id="white" name="class" value="white"> White or Caucasian
-                    </label>
-                </br>
-                    <label for="black">
-                    <input type="checkbox" id="black" name="class" value="black"> Black or African American
-                    </label>  
-                </br>
-                    <label for="native">
-                        <input type="checkbox" id="native" name="class" value="native"> Native American or American Indian
-                        </label>
-                </br>
-                        <label for="asian">
-                        <input type="checkbox" id="asian" name="class" value="asian"> Asian
-                        </label>
-                </br>
-                        <label for="pacific">
-                        <input type="checkbox" id="pacific" name="class" value="pacific"> Pacific Islander
-                        </label>
-                </fieldset>
-                </br>
-                <label for="Gender">
-                    My gender:
-                    <select name="gender" id="gender" required>
-                     <option value="" selected>-- choose gender --</option>
-                     <option value="M">Male</option>
-                     <option value="F">Female</option>
-                     <option value="NB">Non-binary</option>
-                     <option value="NA">Prefer not to say</option>
-                    </select>
-                </label>             
-                <p><span class="tooltip"><i class="fa-solid fa-circle-question"></i>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey | Page 3</title>
+    <script src="https://kit.fontawesome.com/84868f4675.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+</head>
+<body>
+    <h1>Survey | Business Analytics Student Survey</h1>
+    <main>
+        <form>
+            <fieldset>
+                <legend> Race/Ethnicity: </legend>
+                <label for="hispanic">
+                    <input type="checkbox" id="hispanic" name="race" value="hispanic"> Hispanic or Latino
+                </label><br>
+                <label for="white">
+                    <input type="checkbox" id="white" name="race" value="white"> White or Caucasian
+                </label><br>
+                <label for="black">
+                    <input type="checkbox" id="black" name="race" value="black"> Black or African American
+                </label><br>
+                <label for="native">
+                    <input type="checkbox" id="native" name="race" value="native"> Native American or American Indian
+                </label><br>
+                <label for="asian">
+                    <input type="checkbox" id="asian" name="race" value="asian"> Asian
+                </label><br>
+                <label for="pacific">
+                    <input type="checkbox" id="pacific" name="race" value="pacific"> Pacific Islander
+                </label>
+            </fieldset>
+            <br>
+            <label for="gender"> <!-- Corrected the "for" attribute value -->
+                My gender:
+                <select name="gender" id="gender" required>
+                    <option value="" selected>-- choose gender --</option>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                    <option value="NB">Non-binary</option>
+                    <option value="NA">Prefer not to say</option>
+                </select>
+            </label>
+            <p>
+                <span class="tooltip">
+                    <i class="fas fa-circle-question"></i>
                     <span class="tooltip tooltiptext">Letting us know how you identify yourself helps us measure and enhance diversity and inclusivity in tech by addressing historical gender imbalances.</span>
-                </span></p>
-            </form>
-        </main>
-        <footer>
-            <span class="page_number">page 3 of 3</span>
-
-            <button class= "next_buttin" onclick="window.location.href='Nbutzler_P4.HTML';">Finish
-        </footer>
-    </body>
+                </span>
+            </p>
+        </form>
+    </main>
+    <footer>
+        <span class="page_number">page 3 of 3</span>
+        <button class="next_button" onclick="window.location.href='Nbutzler_P4.HTML';">Finish</button>
+    </footer>
+</body>
 </html>
